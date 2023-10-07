@@ -11,8 +11,10 @@ import java.sql.Date;
  * PRJ 301 _ Shoes_01
  */
 public class Product {
+
     private int id;
     private String name;
+    private String description;
     private int category_id;
     private double price;
     private int brand_id;
@@ -23,9 +25,10 @@ public class Product {
     public Product() {
     }
 
-    public Product(int id, String name, int category_id, double price, int brand_id, String image, Date created_at, Date updated_at) {
+    public Product(int id, String name, String description, int category_id, double price, int brand_id, String image, Date created_at, Date updated_at) {
         this.id = id;
         this.name = name;
+        this.description = description;
         this.category_id = category_id;
         this.price = price;
         this.brand_id = brand_id;
@@ -42,12 +45,20 @@ public class Product {
         this.id = id;
     }
 
-    public String getName() {   
+    public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public int getCategory_id() {
@@ -100,10 +111,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" + "id=" + id + ", name=" + name + ", category_id=" + category_id + ", price=" + price + ", brand_id=" + brand_id + ", image=" + image + ", created_at=" + created_at + ", updated_at=" + updated_at + '}';
+        return "Product{" + "id=" + id + ", name=" + name + ", description=" + description + ", category_id=" + category_id + ", price=" + price + ", brand_id=" + brand_id + ", image=" + image + ", created_at=" + created_at + ", updated_at=" + updated_at + '}';
     }
 
-
-    
-    
 }

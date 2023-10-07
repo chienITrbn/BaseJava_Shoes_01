@@ -10,103 +10,6 @@
                                 class="lnr lnr-arrow-right"></span>Fruits and Vegetables<span class="number">(53)</span></a>
                         <ul class="collapse" id="fruitsVegetable" data-toggle="collapse" aria-expanded="false" aria-controls="fruitsVegetable">
                             <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat<span class="number">(11)</span></a></li>
-                        </ul>
-                    </li>
-
-                    <li class="main-nav-list"><a data-toggle="collapse" href="<%=request.getContextPath()%>/#meatFish" aria-expanded="false" aria-controls="meatFish"><span
-                                class="lnr lnr-arrow-right"></span>Meat and Fish<span class="number">(53)</span></a>
-                        <ul class="collapse" id="meatFish" data-toggle="collapse" aria-expanded="false" aria-controls="meatFish">
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat<span class="number">(11)</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="main-nav-list"><a data-toggle="collapse" href="<%=request.getContextPath()%>/#cooking" aria-expanded="false" aria-controls="cooking"><span
-                                class="lnr lnr-arrow-right"></span>Cooking<span class="number">(53)</span></a>
-                        <ul class="collapse" id="cooking" data-toggle="collapse" aria-expanded="false" aria-controls="cooking">
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat<span class="number">(11)</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="main-nav-list"><a data-toggle="collapse" href="<%=request.getContextPath()%>/#beverages" aria-expanded="false" aria-controls="beverages"><span
-                                class="lnr lnr-arrow-right"></span>Beverages<span class="number">(24)</span></a>
-                        <ul class="collapse" id="beverages" data-toggle="collapse" aria-expanded="false" aria-controls="beverages">
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat<span class="number">(11)</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="main-nav-list"><a data-toggle="collapse" href="<%=request.getContextPath()%>/#homeClean" aria-expanded="false" aria-controls="homeClean"><span
-                                class="lnr lnr-arrow-right"></span>Home and Cleaning<span class="number">(53)</span></a>
-                        <ul class="collapse" id="homeClean" data-toggle="collapse" aria-expanded="false" aria-controls="homeClean">
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat<span class="number">(11)</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="main-nav-list"><a href="<%=request.getContextPath()%>/#">Pest Control<span class="number">(24)</span></a></li>
-                    <li class="main-nav-list"><a data-toggle="collapse" href="<%=request.getContextPath()%>/#officeProduct" aria-expanded="false" aria-controls="officeProduct"><span
-                                class="lnr lnr-arrow-right"></span>Office Products<span class="number">(77)</span></a>
-                        <ul class="collapse" id="officeProduct" data-toggle="collapse" aria-expanded="false" aria-controls="officeProduct">
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat<span class="number">(11)</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="main-nav-list"><a data-toggle="collapse" href="<%=request.getContextPath()%>/#beauttyProduct" aria-expanded="false" aria-controls="beauttyProduct"><span
-                                class="lnr lnr-arrow-right"></span>Beauty Products<span class="number">(65)</span></a>
-                        <ul class="collapse" id="beauttyProduct" data-toggle="collapse" aria-expanded="false" aria-controls="beauttyProduct">
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat<span class="number">(11)</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="main-nav-list"><a data-toggle="collapse" href="<%=request.getContextPath()%>/#healthProduct" aria-expanded="false" aria-controls="healthProduct"><span
-                                class="lnr lnr-arrow-right"></span>Health Products<span class="number">(29)</span></a>
-                        <ul class="collapse" id="healthProduct" data-toggle="collapse" aria-expanded="false" aria-controls="healthProduct">
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat<span class="number">(11)</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="main-nav-list"><a href="<%=request.getContextPath()%>/#">Pet Care<span class="number">(29)</span></a></li>
-                    <li class="main-nav-list"><a data-toggle="collapse" href="<%=request.getContextPath()%>/#homeAppliance" aria-expanded="false" aria-controls="homeAppliance"><span
-                                class="lnr lnr-arrow-right"></span>Home Appliances<span class="number">(15)</span></a>
-                        <ul class="collapse" id="homeAppliance" data-toggle="collapse" aria-expanded="false" aria-controls="homeAppliance">
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat<span class="number">(11)</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="main-nav-list"><a class="border-bottom-0" data-toggle="collapse" href="<%=request.getContextPath()%>/#babyCare" aria-expanded="false"
-                                                 aria-controls="babyCare"><span class="lnr lnr-arrow-right"></span>Baby Care<span class="number">(48)</span></a>
-                        <ul class="collapse" id="babyCare" data-toggle="collapse" aria-expanded="false" aria-controls="babyCare">
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Frozen Fish<span class="number">(13)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Dried Fish<span class="number">(09)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Fresh Fish<span class="number">(17)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#">Meat Alternatives<span class="number">(01)</span></a></li>
-                            <li class="main-nav-list child"><a href="<%=request.getContextPath()%>/#" class="border-bottom-0">Meat<span class="number">(11)</span></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -118,24 +21,6 @@
                     <form action="#">
                         <ul>
                             <li class="filter-list"><input class="pixel-radio" type="radio" id="apple" name="brand"><label for="apple">Apple<span>(29)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="asus" name="brand"><label for="asus">Asus<span>(29)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="gionee" name="brand"><label for="gionee">Gionee<span>(19)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="micromax" name="brand"><label for="micromax">Micromax<span>(19)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="samsung" name="brand"><label for="samsung">Samsung<span>(19)</span></label></li>
-                        </ul>
-                    </form>
-                </div>
-                <div class="common-filter">
-                    <div class="head">Color</div>
-                    <form action="#">
-                        <ul>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="black" name="color"><label for="black">Black<span>(29)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="balckleather" name="color"><label for="balckleather">Black
-                                    Leather<span>(29)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="blackred" name="color"><label for="blackred">Black
-                                    with red<span>(19)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="gold" name="color"><label for="gold">Gold<span>(19)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="spacegrey" name="color"><label for="spacegrey">Spacegrey<span>(19)</span></label></li>
                         </ul>
                     </form>
                 </div>
@@ -190,7 +75,7 @@
                     <c:forEach var="product" items="${requestScope.lProduct}">
                         <div class="col-lg-4 col-md-6">
                             <div class="single-product">
-                                <img class="img-fluid" src="${product.image}" alt="">
+                                <a href="<%=request.getContextPath()%>/ProductDetailController?id=${product.id}"><img class="img-fluid" src="${product.image}" alt=""></a>
                                 <div class="product-details">
                                     <h6>${product.name}</h6>
                                     <div class="price">

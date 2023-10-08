@@ -8,6 +8,7 @@ import Model.Product;
 import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
 import java.util.function.Function;
 
 /**
@@ -25,8 +26,8 @@ public class ProductMapper {
             double price = rs.getDouble("price");
             int brand_id = rs.getInt("brand_id");
             String image = rs.getString("image");
-            Date created_at = rs.getDate("created_at");
-            Date updated_at = rs.getDate("updated_at");
+            Timestamp created_at = rs.getTimestamp("created_at");
+            Timestamp updated_at = rs.getTimestamp("updated_at");
             return new Product(id, name, description, category_id, price, brand_id, image, created_at, updated_at);
         } catch (SQLException e) {
             e.printStackTrace();

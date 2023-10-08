@@ -4,7 +4,7 @@
  */
 package Model;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 /**
  *
@@ -19,13 +19,13 @@ public class Product {
     private double price;
     private int brand_id;
     private String image;
-    private Date created_at;
-    private Date updated_at;
+    private Timestamp created_at;
+    private Timestamp updated_at;
 
     public Product() {
     }
 
-    public Product(int id, String name, String description, int category_id, double price, int brand_id, String image, Date created_at, Date updated_at) {
+    public Product(int id, String name, String description, int category_id, double price, int brand_id, String image, Timestamp created_at, Timestamp updated_at) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -36,6 +36,18 @@ public class Product {
         this.created_at = created_at;
         this.updated_at = updated_at;
     }
+//
+//    public Product(String name, String description, int category_id, double price, int brand_id, String image, Timestamp created_at, Timestamp updated_at) {
+//
+//        this.name = name;
+//        this.description = description;
+//        this.category_id = category_id;
+//        this.price = price;
+//        this.brand_id = brand_id;
+//        this.image = image;
+//        this.created_at = created_at;
+//        this.updated_at = updated_at;
+//    }
 
     public int getId() {
         return id;
@@ -93,19 +105,19 @@ public class Product {
         this.image = image;
     }
 
-    public Date getCreated_at() {
+    public Timestamp getCreated_at() {
         return created_at;
     }
 
-    public void setCreated_at(Date created_at) {
+    public void setCreated_at(Timestamp created_at) {
         this.created_at = created_at;
     }
 
-    public Date getUpdated_at() {
+    public Timestamp getUpdated_at() {
         return updated_at;
     }
 
-    public void setUpdated_at(Date updated_at) {
+    public void setUpdated_at(Timestamp updated_at) {
         this.updated_at = updated_at;
     }
 

@@ -12,6 +12,14 @@
         <servlet-name>ProductDetailController</servlet-name>
         <servlet-class>Controller.ProductDetailController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DashboardController</servlet-name>
+        <servlet-class>Controller.DashboardController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CreateProductController</servlet-name>
+        <servlet-class>Controller.Admin.CreateProductController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HomeController</servlet-name>
         <url-pattern>/HomeController</url-pattern>
@@ -19,6 +27,14 @@
     <servlet-mapping>
         <servlet-name>ProductDetailController</servlet-name>
         <url-pattern>/ProductDetailController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DashboardController</servlet-name>
+        <url-pattern>/DashboardController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CreateProductController</servlet-name>
+        <url-pattern>/CreateProductController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

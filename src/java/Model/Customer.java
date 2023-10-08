@@ -1,12 +1,12 @@
-
 package Model;
 
 
 public class Customer {
+
+    private int customerId;
     private int account_id;
     private String full_Name;
     private String address;
-    private int customerId;
     private int phoneNumber;
 
     public Customer() {
@@ -60,6 +60,4 @@ public class Customer {
         this.phoneNumber = phoneNumber;
     }
 
-
-    
 }
